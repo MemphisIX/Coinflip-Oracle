@@ -71,7 +71,7 @@ function placeBet(){
   })
   .on('transactionHash', function(hash){
     console.log(hash);
-    $("#result_output").text("Bet Placed");
+    $("#result_output").text("Bet Sent");
   })
 
 }
